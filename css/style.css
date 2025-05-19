@@ -163,7 +163,7 @@ body {
 }
 .sidebar__item-list-item {
   font-size: 12px;
-  font-family: "Montserrat-Medium";
+  font-family: "Montserrat-Regular";
   line-height: 1.3em;
   color: #2C2C2C;
 }
@@ -305,7 +305,7 @@ body {
 }
 .service-title_form {
   margin-bottom: 26px;
-  max-width: 507px;
+  max-width: 415px;
   color: white;
 }
 .service-title_form-service {
@@ -1414,6 +1414,9 @@ body {
   .service-title_cases {
     margin-bottom: 9px;
   }
+  .service-title_perspective {
+    max-width: 306px;
+  }
   .service-section {
     padding: 30px 0px 45px 0px;
   }
@@ -1570,7 +1573,7 @@ body {
   }
   .service-title_perspective {
     margin-bottom: 20px;
-    max-width: 304px;
+    max-width: 270px;
   }
   .business-goal__circle-box {
     margin-bottom: 10px;
@@ -1606,6 +1609,10 @@ body {
   .perspective-section__text-orange {
     margin-bottom: 20px;
   }
+  .perspective-section__text-black {
+    max-width: 267px;
+  }
+  
   .slider-cases__item {
     padding: 40px 0px 57px 0px;
     gap: 0px;
