@@ -36,10 +36,8 @@ if (sidebarItem) {
             if (desc.style.maxHeight) {
                     desc.style.maxHeight = null
                     btn.classList.remove('sidebar__item-name_open')
-                    console.log('height');
                     desc.classList.add('sidebar__item-desc_hidden')
                 } else {
-                    console.log('no height');
                     desc.style.maxHeight = desc.scrollHeight + "px"
                     btn.classList.add('sidebar__item-name_open')            
         }
