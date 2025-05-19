@@ -328,6 +328,10 @@ body {
 .ros-patent-sign {
   font-size: 15px;
 }
+.ros-patent-sign_work{
+  font-size: 9px;
+  top: -0.8em;
+}
 
 .orange-box {
   border-left: 1px solid orange;
@@ -1109,9 +1113,7 @@ body {
     font-size: 20px;
     max-width: 350px;
   }
-  .service-title {
-    text-transform: uppercase;
-  }
+  
   .service-title_form {
     font-size: 22px;
   }
@@ -1554,6 +1556,9 @@ body {
   .ros-patent-sign {
     font-size: 12px;
   }
+  .ros-patent-sign_work{
+    font-size: 9px;
+}
   .service-title {
     font-size: 16px;
   }
