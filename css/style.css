@@ -966,6 +966,11 @@ body {
   width: 90%;
 }
 
+@media (min-width: 1550px) {
+  .container {
+    width: 982px
+  }
+}
 @media (max-width: 1450px) {
   .advantages-item__text {
     font-size: 23px;
