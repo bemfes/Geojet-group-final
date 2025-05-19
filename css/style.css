@@ -1036,6 +1036,9 @@ body {
   .slider-cases__item-text, .slider-cases__item-results-list-item {
     font-size: 15px;
   }
+  .ros-patent-sign_first {
+    top: -0.2em;
+  }
 }
 @media (max-width: 1200px) {
   .sidebar {
@@ -1136,6 +1139,7 @@ body {
   }
   .form-service__box {
     width: 95%;
+    top: 0px;
   }
   .form-service__box-left {
     margin-right: 75px;
@@ -1358,10 +1362,13 @@ body {
     padding: 0;
     position: absolute;
     right: 27px;
-    top: 0px;
+    top: 15px;
   }
 }
 @media (max-width: 576px) {
+  sup {
+    top: -0.3em;
+  }
   .advantages-item__number {
     font-size: 65px;
   }
@@ -1449,19 +1456,19 @@ body {
   }
   .form-section {
     justify-content: center;
+    min-height: 555px;
   }
   .form-section__main {
-    width: 90%;
+    width: 95%;
     border-radius: 20px;
   }
   .form-section__text {
     font-size: 16px;
   }
   .form-service__box {
-    width: 95%;
-    margin-right: 6%;
+    margin-right: 5%;
+    width: 96%;
     border-radius: 20px;
-    top: -15px;
     padding: 54px 34px 50px 36px;
   }
   .form-service__close-btn {
@@ -1485,6 +1492,9 @@ body {
   }
 }
 @media (max-width: 450px) {
+  .perspective-section__text-orange, .perspective-section__text-black {
+        font-size: 14px;
+  }
   .work-section__text {
     font-size: 12px;
     margin-bottom: 10px;
@@ -1531,8 +1541,14 @@ body {
     width: 15px;
     height: 15px;
   }
+  .form-service__box {
+    margin-right: 6%;
+  }
 }
 @media (max-width: 390px) {
+  .ros-patent-sign {
+    font-size: 12px;
+  }
   .service-title {
     font-size: 16px;
   }
@@ -1599,6 +1615,7 @@ body {
   .form-service__box {
     padding: 54px 15px 26px 15px;
     border-radius: 30px;
+    margin-right: 7%;
   }
   .form-service__text_service {
     margin-bottom: 20px;
