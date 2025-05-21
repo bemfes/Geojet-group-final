@@ -184,6 +184,11 @@ body {
   max-height: 0;
 }
 
+
+.whitespace {
+  white-space: pre-line;
+}
+
 .btn {
   background: #EE7828;
   border-radius: 30px;
@@ -293,6 +298,7 @@ body {
   font-family: "ActayWide";
   line-height: 1.3em;
   color: #2C2C2C;
+  white-space: pre-line;
 }
 
 .service-title {
@@ -731,6 +737,10 @@ body {
   padding: 16px 16px 16px 59px;
 }
 
+.whitespace_service-title-form {
+  white-space: normal;
+}
+
 .work-section {
   padding: 90px 0px 100px 0px;
 }
@@ -1034,6 +1044,9 @@ body {
     font-size: 23px;
     max-width: 366px;
   }
+  .whitespace_advantages-item__text-1 {
+    white-space: normal;
+}
 }
 @media (max-width: 1400px) {
   .business-goal__title {
@@ -1090,6 +1103,13 @@ body {
     max-width: 317px;
   }
 }
+
+@media(max-width: 1330px) and (min-width: 1300px) {
+  .whitespace_business-goal__desc-1 {
+    white-space: normal;
+  }
+}
+ 
 @media (max-width: 1250px) {
   .slider-cases__item-img {
     width: 360px;
@@ -1139,6 +1159,9 @@ body {
   }
 }
 @media (max-width: 992px) {
+  .whitespace_business-goal__desc-1 {
+    white-space: normal;
+  }
   .service-section {
     padding: 30px 0px 45px 0px;
   }
@@ -1207,11 +1230,19 @@ body {
     margin-right: 75px;
   }
 }
+
+@media(max-width: 875px) {
+  .whitespace_form-section-text {
+    white-space: normal;
+  }
+}
+
 @media (max-width: 850px) {
   .service-section__text {
     font-size: 20px;
     max-width: 600px;
     left: 13px;
+    white-space: normal;
   }
   .advantages-item__text {
     font-size: 18px;
@@ -1627,7 +1658,17 @@ body {
     right: 26px;
   }
 }
+
+@media(max-width: 450px) and (min-width: 335px) {
+  .whitespace_service-title-form {
+    white-space: pre-line;
+}
+}
+
 @media (max-width: 390px) {
+  .service-title_loss {
+    max-width: 290px;
+  }
   .ros-patent-sign {
     font-size: 12px;
   }
@@ -1725,5 +1766,8 @@ body {
   }
   .service-title_form-service {
         font-size: 15px;
+  }
+  .service-title_form {
+      max-width: 188px;
   }
 }/*# sourceMappingURL=style.css.map */
