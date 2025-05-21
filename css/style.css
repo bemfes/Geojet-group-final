@@ -1411,7 +1411,9 @@ body {
 }
 
 @media (max-width: 650px) {
-  
+  .whitespace_form-service-text {
+    white-space: normal;
+  }
   .btn_form-service {
     width: 100%;
   }
