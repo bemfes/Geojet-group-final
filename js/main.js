@@ -1,9 +1,10 @@
 const btnOpenForm = document.querySelector('.btn_open-form');
-
+const body = document.querySelector('body');
 const formBox = document.querySelector('.form-service__box');
 const inputs = document.querySelectorAll('.form-service__input');
 const btnFormSend = document.querySelector('.btn_form-service');
 const btnCloseForm = document.querySelector('.form-service__close-btn');
+const overlay = document.querySelector('.overlay');
 
 if (btnOpenForm) {
     btnOpenForm.addEventListener('click', () => {
@@ -13,6 +14,8 @@ if (btnOpenForm) {
         })
         btnFormSend.setAttribute('tabindex', '1')
         btnCloseForm.setAttribute('tabindex', '1')
+        body.classList.add('no-scroll')
+        overlay.classList.remove('overlay_hidden')
     })
 }
 
@@ -25,6 +28,20 @@ if (btnCloseForm) {
         })
         btnFormSend.setAttribute('tabindex', '-1')
         btnCloseForm.setAttribute('tabindex', '-1')
+        body.classList.remove('no-scroll')
+        overlay.classList.add('overlay_hidden')
+    })
+}
+if (overlay) {
+    overlay.addEventListener('click', () => {
+        formBox.classList.remove('form-service__box_open')
+        inputs.forEach(input => {
+            input.setAttribute('tabindex', '-1')
+        })
+        btnFormSend.setAttribute('tabindex', '-1')
+        btnCloseForm.setAttribute('tabindex', '-1')
+        body.classList.remove('no-scroll')
+        overlay.classList.add('overlay_hidden')
     })
 }
 
