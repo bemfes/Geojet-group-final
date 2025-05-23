@@ -1757,6 +1757,10 @@ body {
   .form-service__input {
     font-size: 12px;
   }
+  .form-section__text-span {
+    display: block;
+    width: 100%;
+  }
 }
 @media (max-width: 350px) {
   .service-section__text {
