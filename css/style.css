@@ -264,7 +264,7 @@ body {
 
 .service-section {
   padding-top: 85px;
-  padding-bottom: 80px;
+  padding-bottom: 45px;
 }
 .service-section__img {
   border-radius: 20px;
@@ -463,7 +463,7 @@ body {
 }
 
 .advantages-section {
-  padding: 90px 0px 100px 0px;
+  padding: 45px 0px;
 }
 
 .advantages-items-box {
@@ -505,7 +505,7 @@ body {
 }
 
 .info-section {
-  padding: 90px 0px 100px 0px;
+  padding: 45px 0px;
 }
 .info-section__desc {
   display: flex;
@@ -540,7 +540,7 @@ body {
 }
 
 .business-section {
-  padding: 90px 0px 100px 0px;
+  padding: 45px 0px;
 }
 
 .business-goals-box {
@@ -588,7 +588,7 @@ body {
 }
 
 .form-section {
-  padding: 90px 0px 100px 0px;
+  padding: 45px 0px;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -742,7 +742,7 @@ body {
 }
 
 .work-section {
-  padding: 90px 0px 100px 0px;
+  padding: 45px 0px;
 }
 .work-section__list {
   margin-bottom: 20px;
@@ -774,11 +774,11 @@ body {
 }
 
 .cases-section {
-  padding: 90px 0px 100px 0px;
+  padding: 45px 0px;
 }
 
 .stages-section {
-  padding: 90px 0px 100px 0px;
+  padding: 45px 0px;
 }
 
 .swiper-pagination {
@@ -1004,7 +1004,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 90px 0px 100px 0px;
+  padding: 45px 0px;
 }
 .perspective-section__left {
   margin-right: 92px;
@@ -1531,10 +1531,10 @@ body {
     padding: 45px 0px;
   }
   .work-section {
-    padding: 60px 0px 45px 0px;
+    padding: 45px 0px 45px 0px;
   }
   .perspective-section {
-    padding: 45px 0px 90px 0px;
+    padding: 45px 0px 45px 0px;
   }
   .business-goal {
     width: 100%;
@@ -1558,11 +1558,11 @@ body {
   }
   .form-section {
     justify-content: center;
-    min-height: 555px;
   }
   .form-section__main {
     width: 95%;
     border-radius: 20px;
+    height: fit-content;
   }
   .form-section__text {
     font-size: 16px;
