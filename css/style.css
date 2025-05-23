@@ -135,7 +135,7 @@ body {
   color: #2C2C2C;
 }
 .sidebar__item:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .sidebar__item-name {
   font-size: 14px;
